@@ -1,0 +1,6 @@
+language: go
+
+script: go test -v -race -timeout 10s ./...
+
+go:
+    - 1.5
